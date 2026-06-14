@@ -1,0 +1,47 @@
+.isAction {
+	background-color: #2563eb;
+	color: #ffffff;
+	padding: 8px 12px;
+	border-radius: 6px;
+	cursor: pointer;
+	border: none;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	font-weight: 600;
+	transition: background-color 150ms ease, transform 80ms ease;
+}
+.isAction:hover {
+	background-color: #1d4ed8;
+	transform: translateY(-1px);
+}
+.isAction:active {
+	transform: translateY(0);
+}
+
+.menu {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
+
+.itemMenu {
+	padding: 6px 8px;
+	color: #374151; /* gray-700 */
+	text-decoration: none;
+	border-radius: 4px;
+	transition: background-color 120ms ease, color 120ms ease;
+}
+.itemMenu:hover {
+	background-color: rgba(37, 99, 235, 0.08);
+	color: #1d4ed8;
+}
+.itemMenu.active,
+.itemMenu.is-active {
+	background-color: rgba(37, 99, 235, 0.12);
+	color: #1d4ed8;
+}
+
