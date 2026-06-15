@@ -30,6 +30,7 @@ coverage/
 .env.sit
 .env.uat
 .env.production
+env.file
 
 # Lockfiles (optional to ignore — adapt if you want to keep them in repo)
 package-lock.json
